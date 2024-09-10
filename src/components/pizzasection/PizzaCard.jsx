@@ -30,7 +30,7 @@ const PizzaCard = ({pizza}) => {
      
                  <select name="" id="" onChange={(e)=>setSelectedPrice(e.target.value)}  >
                     {Object.keys(pizza.sizeandcrust[0]).map((sc,i)=>
-                        <option value={pizza.sizeandcrust[0][sc][0].price}>{sc}-{pizza.sizeandcrust[0][sc][0].price}</option>
+                        <option  value={pizza.sizeandcrust[0][sc][0].price}>{sc}-{pizza.sizeandcrust[0][sc][0].price}</option>
                     )}
                  </select>
 
